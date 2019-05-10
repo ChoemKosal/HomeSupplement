@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="triadic">#880061</color>
+    <color name="complementary"> #008b00</color>
+    <color name="blue">#0000e4 </color>
+    <color name="green">#008b00 </color>
+    <color name="white"> #FFFFFF</color>
+    <color name="small_black">#eee6ff</color>
+    <color name="g"> </color>
+    <color name="h"> </color>
+</resources>
