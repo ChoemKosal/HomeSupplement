@@ -4,5 +4,7 @@
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">67ed5d8167ab4426557f1fc23b6ae77d</string>
     <string name="ak_login_protocol_scheme">ak67ed5d8167ab4426557f1fc23b6ae77d</string>
 
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
 </resources>
