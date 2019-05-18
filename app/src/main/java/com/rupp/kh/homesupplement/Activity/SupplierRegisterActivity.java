@@ -1,7 +1,9 @@
-package com.rupp.kh.homesupplement;
+package com.rupp.kh.homesupplement.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.rupp.kh.homesupplement.R;
 
 public class SupplierRegisterActivity extends AppCompatActivity {
 

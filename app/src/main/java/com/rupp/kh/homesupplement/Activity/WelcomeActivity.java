@@ -1,4 +1,4 @@
-package com.rupp.kh.homesupplement;
+package com.rupp.kh.homesupplement.Activity;
 
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -17,6 +17,7 @@ import com.facebook.accountkit.AccountKitLoginResult;
 import com.facebook.accountkit.ui.AccountKitActivity;
 import com.facebook.accountkit.ui.AccountKitConfiguration;
 import com.facebook.accountkit.ui.LoginType;
+import com.rupp.kh.homesupplement.R;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

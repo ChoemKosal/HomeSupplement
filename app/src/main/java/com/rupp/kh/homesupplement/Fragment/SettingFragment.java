@@ -1,4 +1,4 @@
-package com.rupp.kh.homesupplement;
+package com.rupp.kh.homesupplement.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -9,22 +9,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-public class SendFragment extends Fragment {
+import com.rupp.kh.homesupplement.R;
+
+public class SettingFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_send,null );
-    }@Override
+        return inflater.inflate(R.layout.fragment_setting,null );
+    }
+
+    @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.send).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.setting).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "You are inside send Fragment", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "You are inside setting Fragment", Toast.LENGTH_SHORT).show();
             }
         });
     }
-
-
 }

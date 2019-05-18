@@ -1,4 +1,4 @@
-package com.rupp.kh.homesupplement;
+package com.rupp.kh.homesupplement.Activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,6 +13,13 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+
+import com.rupp.kh.homesupplement.Fragment.CallFragment;
+import com.rupp.kh.homesupplement.Fragment.ContactFragment;
+import com.rupp.kh.homesupplement.Fragment.HelpFragment;
+import com.rupp.kh.homesupplement.Fragment.HomeFragment;
+import com.rupp.kh.homesupplement.Fragment.SettingFragment;
+import com.rupp.kh.homesupplement.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
